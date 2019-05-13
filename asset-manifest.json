@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/solstice-challenge/static/css/main.63f227a0.chunk.css",
-    "main.js": "/solstice-challenge/static/js/main.3c3f29c8.chunk.js",
-    "main.js.map": "/solstice-challenge/static/js/main.3c3f29c8.chunk.js.map",
+    "main.js": "/solstice-challenge/static/js/main.74e12a9b.chunk.js",
+    "main.js.map": "/solstice-challenge/static/js/main.74e12a9b.chunk.js.map",
     "runtime~main.js": "/solstice-challenge/static/js/runtime~main.8e20e0b4.js",
     "runtime~main.js.map": "/solstice-challenge/static/js/runtime~main.8e20e0b4.js.map",
     "static/js/2.f7353d4b.chunk.js": "/solstice-challenge/static/js/2.f7353d4b.chunk.js",
     "static/js/2.f7353d4b.chunk.js.map": "/solstice-challenge/static/js/2.f7353d4b.chunk.js.map",
     "index.html": "/solstice-challenge/index.html",
-    "precache-manifest.08de49d049c34ae9b943689a9c8bf83e.js": "/solstice-challenge/precache-manifest.08de49d049c34ae9b943689a9c8bf83e.js",
+    "precache-manifest.5f43e8aab4d9c368f88a2a1164707282.js": "/solstice-challenge/precache-manifest.5f43e8aab4d9c368f88a2a1164707282.js",
     "service-worker.js": "/solstice-challenge/service-worker.js",
     "static/css/main.63f227a0.chunk.css.map": "/solstice-challenge/static/css/main.63f227a0.chunk.css.map"
   }
