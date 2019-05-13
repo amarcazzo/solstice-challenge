@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/solstice-challenge/precache-manifest.3ac373a6b709bfe6ebf95a651f61d0d5.js"
+  "/solstice-challenge/precache-manifest.f0226b1de8edfc584717eade9a966a4a.js"
 );
 
 self.addEventListener('message', (event) => {
