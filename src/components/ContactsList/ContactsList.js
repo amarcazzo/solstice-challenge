@@ -10,7 +10,12 @@ function ContactsList() {
   useEffect(() => {
     (async () =>
       await fetch(
-        "https://s3.amazonaws.com/technical-challenge/v3/contacts.json"
+        "https://s3.amazonaws.com/technical-challenge/v3/contacts.json",
+        {
+          headers: {
+            "Content-Type": "application/x-www-form-urlencoded"
+          }
+        }
       )
         .then(res => res.json())
         .then(res => setContacts(res)))();
