@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f769d30dcffb7ea3aa431decdbea9312",
+    "revision": "1a13c523b153125a1c73f43b11f394b4",
     "url": "/solstice-challenge/index.html"
   },
   {
-    "revision": "2f3d436b2c7fc9d3984f",
+    "revision": "9f76a54c8b06ce3cbb62",
     "url": "/solstice-challenge/static/css/main.eb053b56.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/solstice-challenge/static/js/2.f7353d4b.chunk.js"
   },
   {
-    "revision": "2f3d436b2c7fc9d3984f",
-    "url": "/solstice-challenge/static/js/main.96043775.chunk.js"
+    "revision": "9f76a54c8b06ce3cbb62",
+    "url": "/solstice-challenge/static/js/main.7a723ac8.chunk.js"
   },
   {
     "revision": "b4d8edfaf7edf2e6277c",
