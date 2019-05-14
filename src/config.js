@@ -1,5 +1,5 @@
 const config = {
-  homepage: "/solstice-challenge"
+  homepage: ""
 };
 
 export default config;

@@ -63,7 +63,7 @@ function ContactsList() {
     <Router>
       <Route
         exact
-        path={config.homepage}
+        path={config.homepage || "/"}
         render={() => (
           <div>
             <h3 className="contacts-header">Contacts</h3>
