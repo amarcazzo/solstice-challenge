@@ -4,6 +4,7 @@ import FavTrue from "../../assets/favorite-true/favorite-true.png";
 import FavFalse from "../../assets/favorite-false/favorite-false.png";
 import "./contact-details.min.css";
 import { BrowserRouter as Route, Link } from "react-router-dom";
+import config from "../../config";
 
 function ContactDetails(props) {
   const handleError = e => {
@@ -22,7 +23,7 @@ function ContactDetails(props) {
   return (
     <div>
       <section className="contact-detail-header">
-        <Link to="/">{"< Contacts"}</Link>
+        <Link to={config.homepage}>{"< Contacts"}</Link>
         {favorite}
       </section>
       <div className="contact-details">

@@ -3,6 +3,7 @@ import { BrowserRouter as Route, Link } from "react-router-dom";
 import userImg from "../../assets/user-small/user-small@2x.png";
 import favoriteTrue from "../../assets/favorite-true/favorite-true.png";
 import "./contact-item.min.css";
+import config from "../../config";
 
 function ContactItem(props) {
   const contact = props.details;
@@ -13,7 +14,7 @@ function ContactItem(props) {
 
   return (
     <li key={contact.id}>
-      <Link to={`/${contact.id}`} className="contact-item">
+      <Link to={`${config.homepage}/${contact.id}`} className="contact-item">
         <img
           className="contact-item-img"
           src={contact.smallImageURL}

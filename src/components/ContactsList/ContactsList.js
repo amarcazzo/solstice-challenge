@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./contacts-list.min.css";
 import ContactItem from "../ContactItem/ContactItem";
 import ContactDetails from "../ContactDetails/ContactDetails";
+import config from "../../config";
 
 function ContactsList() {
   const [contacts, setContacts] = useState([]);
@@ -10,7 +11,12 @@ function ContactsList() {
   useEffect(() => {
     (async () =>
       await fetch(
-        "https://s3.amazonaws.com/technical-challenge/v3/contacts.json"
+        "https://s3.amazonaws.com/technical-challenge/v3/contacts.json",
+        {
+          headers: {
+            "Content-Type": "application/x-www-form-urlencoded"
+          }
+        }
       )
         .then(res => res.json())
         .then(res => setContacts(res)))();
@@ -36,7 +42,7 @@ function ContactsList() {
 
   const routes = contacts.map(item => (
     <Route
-      path={`/${item.id}`}
+      path={`${config.homepage}/${item.id}`}
       key={item.id}
       render={() => (
         <ContactDetails details={item} toggleFavorite={toggleFavorite} />
@@ -57,7 +63,7 @@ function ContactsList() {
     <Router>
       <Route
         exact
-        path="/"
+        path={config.homepage}
         render={() => (
           <div>
             <h3 className="contacts-header">Contacts</h3>
